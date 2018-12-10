@@ -6,7 +6,7 @@ metadata:
     component: ks-docs-sample
     tier: backend
   name: ks-docs-sample
-  namespace: calvin-docs-prod
+  namespace: kubesphere-docs-prod
 spec:
   progressDeadlineSeconds: 600
   replicas: 2
