@@ -5,12 +5,12 @@ pipeline {
     }
   }
   parameters{
-     string(name:'TAG_NAME',defaultValue: 'v0.1',description:'')
+     string(name:'TAG_NAME',defaultValue: 'v0.2',description:'')
   }
   environment {
     DOCKERHUB_CREDENTIAL_ID = 'dockerhub-id'
     GITHUB_CREDENTIAL_ID = 'github-id'
-    KUBECONFIG_CREDENTIAL_ID = 'kubeconfig-demo'
+    KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
     DOCKERHUB_NAMESPACE = 'calvinyu'
     GTIHUB_ACCOUNT = 'calvinyv'
     APP_NAME = 'devops-docs-sample'
